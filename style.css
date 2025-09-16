@@ -43,4 +43,11 @@ button {
 }
 
 button:hover {
+  background-color: #0056b3;
+}
+
+#session-count {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #555;
 }
