@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Titulo principal  -->
+    <h1>Pomodoro Timer</h1>
+    <!-- contenedor principal; -->
+    <div class="timer-container">
+      <!-- mostrar el tiempo -->
+      <h2 id="timer">25:00</h2>
+
+      <!-- botones para controlar el temporizador -->
+      <div class="button-group">
+        <button id="startBtn">Iniciar</button>
+        <button id="pauseBtn">Pausar</button>
+        <button id="resetBtn">Reiniciar</button>
+      </div>
+
+      <p id="session-count">Sesion 1 de 4</p>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
