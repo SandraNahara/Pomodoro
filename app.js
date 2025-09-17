@@ -66,7 +66,7 @@ class PomodoroTimer {
     clearInterval(this.timerInterval);
     this.timerInterval = null;
     this.isRunning = false;
-    //this.startBtn.textContent = "▶ Continuar";
+    this.startBtn.textContent = "▶ Continuar";
     this.startBtn.className = "btn-primary";
   }
 
