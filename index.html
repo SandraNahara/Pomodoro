@@ -8,22 +8,17 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <!-- Titulo principal  -->
-    <h1>Pomodoro Timer</h1>
-    <!-- contenedor principal; -->
-    <div class="timer-container">
-      <!-- mostrar el tiempo -->
-      <h2 id="timer">25:00</h2>
-
-      <!-- botones para controlar el temporizador -->
-      <div class="button-group">
-        <button id="startBtn">Iniciar</button>
-        <button id="pauseBtn">Pausar</button>
-        <button id="resetBtn">Reiniciar</button>
+    <div class="app-container">
+      <h1>Pomodoro timer</h1>
+      <div class="timer-display">
+        <div class="timer-circle">
+          <div class="circle-bg" id="circleProgress">
+            <div id="timer">25:00</div>
+          </div>
+        </div>
       </div>
-
-      <p id="session-count">Sesion 1 de 4</p>
+    <div class="notification" id="notification" role="status" aria-live="polite"> 
     </div>
-    <script src="./app.js"></script>
+    <script src="app.js" defer></script>
   </body>
 </html>
