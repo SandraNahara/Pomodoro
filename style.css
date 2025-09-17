@@ -75,3 +75,72 @@ h1 {
   color: var(--text-color);
   z-index: 2;
 }
+
+.session-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.session-count,
+.session-type {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.session-type {
+  padding: 5px 15px;
+  border-radius: 20px;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 100px;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #c0392b;
+  transform: translateY(-2px);
+}
+.btn-secondary {
+  background: var(--accent-color);
+  color: #fff;
+}
+.btn-secondary:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+.btn-success {
+  background: var(--secondary-color);
+  color: #fff;
+}
+.btn-success:hover {
+  background: #229954;
+  transform: translateY(-2px);
+}
