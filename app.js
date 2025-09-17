@@ -51,8 +51,8 @@ class PomodoroTimer {
   startTimer() {
     if (this.timerInterval) return;
     this.isRunning = true;
-    this.startBtn.textContent = "⏸ Pausar";
-    this.startBtn.className = "btn-secondary";
+    //this.startBtn.textContent = "⏸ Pausar";
+    //this.startBtn.className = "btn-secondary";
 
     this.timerInterval = setInterval(() => {
       this.timeLeft--;
